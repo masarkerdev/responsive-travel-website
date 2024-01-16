@@ -3,10 +3,13 @@
 
 @media screen and (max-width: 992px) {
  
+
     .banner-section-wrapper {
         border-radius: 16px;
-        flex-direction: column;
-       padding-bottom: 60px;
+       background-size: cover;
+       padding-top: 40px;
+       /* padding-bottom: 40px; */
+ 
     
     }
 
@@ -24,10 +27,31 @@
         font-weight: 400;
         line-height: 21px;
     }
-
+.search-form{
+    margin-bottom: 50px;
+}
     .search-form>form {
         width: 287px;
         flex-direction: column;
         gap: 16px;
     }
+
+    .popular-tour-section-wrapper{
+        flex-direction: column;
+    }
+
+/* tour section start here */
+.popular-tour-section-wrapper {
+    margin-top: 10px;
+
+}
+.tour-section-left-side, .tour-section-right-side{
+    width: auto;
+}
+.tour-section-left-side{
+    padding: 15px;
+   
+}
+
+
 }
