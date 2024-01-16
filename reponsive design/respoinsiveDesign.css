@@ -99,5 +99,10 @@
 .middle-row{
     flex-direction: column-reverse;
 }
+.tour-section-right-side>iframe{
+    width: 350px;
+    height: 250px;
+    border-radius: 16px;
+}
 
 }
