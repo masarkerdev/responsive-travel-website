@@ -91,6 +91,9 @@
     padding: 20px 30px;
 
 }
+.pricing-section-wrapper{
+    margin-top: 10px;
+}
 .princing-box {
    flex-direction: column;
     background-size:cover;

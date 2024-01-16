@@ -243,7 +243,9 @@ li {
 /* why choose us section end  here*/
 /* Pricing Section start here*/
 
-
+.pricing-section-wrapper{
+    margin-top: 50px;
+}
 .princing-box {
     display: flex;
     justify-content: end;
