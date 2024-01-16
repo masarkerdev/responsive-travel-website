@@ -1,0 +1,33 @@
+/* responsive desgin for mobile  */
+
+
+@media screen and (max-width: 992px) {
+ 
+    .banner-section-wrapper {
+        border-radius: 16px;
+        flex-direction: column;
+       padding-bottom: 60px;
+    
+    }
+
+    .banner-title {
+        font-size: 22px;
+        font-weight: 800;
+
+    }
+
+    .banner-description {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .search-form>form {
+        width: 287px;
+        flex-direction: column;
+        gap: 16px;
+    }
+}

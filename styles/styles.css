@@ -1,5 +1,92 @@
 /* global design start here */
-*{
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Mulish', sans-serif;
+
 }
+
+.menu-section,
+.hero-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.menu-container,
+.banner-section-container {
+    width: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Global designs are end here */
+
+/* Menu Section Style start Here */
+
+.menu-items>ul>li {
+    display: inline-flex;
+
+}
+
+.menu-items>ul>li a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.banner-section-wrapper {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13.png);
+    size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    padding-left: 247px;
+    padding-right: 247px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.search-form {
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 48px;
+}
+.search-form>form{
+    display: flex;
+    gap: 15px;
+   
+}
+.textinput, #textinput{
+    padding: 16px 60px 16px 16px;
+    border-radius: 8px;
+}
+
+
+/* Menu Section Style end Here */
