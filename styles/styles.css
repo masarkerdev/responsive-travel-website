@@ -13,7 +13,8 @@
 .popular-tour-section,
 .why-choose-us-section,
 .pricing-section,
-.newsletter-section {
+.newsletter-section,
+.destination-section {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -23,7 +24,8 @@
 .popular-tour-section-container,
 .why-choose-us-section-container,
 .pricing-section-containe,
-.news-letter-section-containe {
+.news-letter-section-containe,
+.destination-container {
     width: auto;
     padding: 10px;
 }
@@ -58,7 +60,8 @@
     text-decoration: none;
     margin-right: 12px;
 }
-.humberg-icon{
+
+.humberg-icon {
     display: none;
 }
 
@@ -136,9 +139,11 @@
     font-size: 2.5em;
     font-weight: 800;
 }
-#btn{
+
+#btn {
     margin-top: 20px;
 }
+
 .tour-section-left-side p,
 li {
     color: rgba(19, 19, 24, 0.70);
@@ -161,6 +166,110 @@ li {
 }
 
 /* tour-section end here */
+/* destiantion section start here*/
+.destination-wrapper {
+    width: 100%;
+    margin-top: 80px;
+
+
+
+}
+
+.first-row, .second-row, .thire-row{
+    width: auto;
+    display: flex;
+    gap: 20px;
+
+}
+
+.first-row-left {
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2em;
+
+
+}
+.right{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+}
+.second-row{
+    margin-top:  20px;
+}
+.second-row-left{
+    width: 30%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2em;
+
+}
+.second-row-middle{
+    width: 50%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2em;
+
+}
+.second-row-right{
+    width: 20%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2em;
+}
+
+.thire-row{
+    margin-top: 20px;
+}
+.third-row-left{
+    width: 40%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2em;
+
+}
+.third-row-right{
+    width: 58%;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2em;
+}
+
+/* destiantion section end here*/
+
+
 /* why choose us section start here*/
 
 
@@ -243,9 +352,10 @@ li {
 /* why choose us section end  here*/
 /* Pricing Section start here*/
 
-.pricing-section-wrapper{
+.pricing-section-wrapper {
     margin-top: 50px;
 }
+
 .princing-box {
     display: flex;
     justify-content: end;

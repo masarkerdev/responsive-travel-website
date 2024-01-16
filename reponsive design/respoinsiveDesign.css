@@ -63,8 +63,18 @@
 
     }
 
+/* destionation section start*/
+.destination-wrapper {
+    margin-top: 20px;
 
-
+}
+.first-row, .second-row, .thire-row{
+    flex-direction: column;
+}
+.first-row-left, .second-row-left,.second-row-middle,.second-row-right,.third-row-left,.third-row-right{
+    width: auto;
+    height: 176px;
+}
 /* why choose use section start here */
 .why-choose-us-section-wrapper {
 
