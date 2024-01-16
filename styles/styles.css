@@ -10,14 +10,16 @@
 
 .menu-section,
 .hero-section,
-.popular-tour-section {
+.popular-tour-section,
+.why-choose-us-section,.pricing-section {
     max-width: 1170px;
     margin: 0 auto;
 }
 
 .menu-container,
 .banner-section-container,
-.popular-tour-section-container {
+.popular-tour-section-container,
+.why-choose-us-section-container,.pricing-section-containe {
     width: auto;
     padding: 10px;
 }
@@ -121,11 +123,10 @@
     width: 50%;
 }
 
-.tour-section-left-side h1 {
+.tour-section-left-side h2 {
     color: #131318;
     font-size: 2.5em;
     font-weight: 800;
-
 }
 
 .tour-section-left-side p,
@@ -134,22 +135,106 @@ li {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-
 }
 
 .tour-section-left-side ul {
     padding: 16px 0px 16px 40px;
 
 }
-.tour-section-right-side img{
+
+.tour-section-right-side img {
     width: 100%;
 }
 
-.tour-section-right-side{
+.tour-section-right-side {
     width: 50%;
 }
-/* tour-section end here */
 
-.menu-section, .banner-section-wrapper{
-    background-color: #FF5400;
+/* tour-section end here */
+/* why choose us section start here*/
+
+
+.why-choose-us-section-wrapper {
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.why-us-text {
+    text-align: center;
+    margin: 0 auto;
+    width: 650px;
+    margin-bottom: 50px;
+}
+
+.why-us-text h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.8em;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+.why-us-text p {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px; 
+}
+
+.why-us-points {
+    display: flex;
+    gap: 25px;
+
+}
+
+
+
+.why-us-points-left {
+    border-radius: 16px;
+    background-color: rgba(251, 180, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 30px 35px;
+    width: 570px;
+}
+
+.why-us-points-left h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 40px;
+
+}
+
+.why-us-points-left p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.why-us-points-right {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+.why-us-lower-parta {
+    width: 570px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(233, 68, 68, 0.05);
+    margin: 25px auto;
+    padding: 30px 35px;
+}
+
+
+
+/* why choose us section end  here*/
+
+
+
+.pricing-box1>ul>li{
+list-style: none;
+display: inline-flex;
+
 }

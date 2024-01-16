@@ -2,17 +2,13 @@
 
 
 @media screen and (max-width: 992px) {
- 
 
     .banner-section-wrapper {
         border-radius: 16px;
-       background-size: cover;
-       padding-top: 40px;
-       /* padding-bottom: 40px; */
- 
-    
-    }
+        background-size: cover;
+        padding-top: 40px;
 
+    }
     .banner-title {
         font-size: 22px;
         font-weight: 800;
@@ -27,31 +23,60 @@
         font-weight: 400;
         line-height: 21px;
     }
-.search-form{
-    margin-bottom: 50px;
-}
+
+    .search-form {
+        margin-bottom: 50px;
+    }
+
     .search-form>form {
         width: 287px;
         flex-direction: column;
         gap: 16px;
     }
 
-    .popular-tour-section-wrapper{
+    .popular-tour-section-wrapper {
         flex-direction: column;
     }
 
-/* tour section start here */
-.popular-tour-section-wrapper {
-    margin-top: 10px;
+    /* tour section start here */
+    .popular-tour-section-wrapper {
+        margin-top: 10px;
+
+    }
+
+    .tour-section-left-side,
+    .tour-section-right-side {
+        width: auto;
+    }
+
+    .tour-section-left-side {
+        padding: 15px;
+
+    }
+/* why choose use section start here */
+.why-choose-us-section-wrapper {
+
+    margin-top:10px;
+
 
 }
-.tour-section-left-side, .tour-section-right-side{
-    width: auto;
+.why-us-text{
+    margin-bottom: 20px;
 }
-.tour-section-left-side{
-    padding: 15px;
-   
+.why-us-text h2, .tour-section-left-side h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.8em;
+    font-weight: 800;
+
 }
+.why-us-points{
+    flex-direction: column;
 
+}
+.why-us-points-left,.why-us-text{
+    width:300px;
+    padding: 20px 30px;
 
+}
 }
