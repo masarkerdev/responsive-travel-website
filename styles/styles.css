@@ -58,6 +58,9 @@
     text-decoration: none;
     margin-right: 12px;
 }
+.humberg-icon{
+    display: none;
+}
 
 .banner-section-wrapper {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13.png);
@@ -133,7 +136,9 @@
     font-size: 2.5em;
     font-weight: 800;
 }
-
+#btn{
+    margin-top: 20px;
+}
 .tour-section-left-side p,
 li {
     color: rgba(19, 19, 24, 0.70);
@@ -313,7 +318,7 @@ li {
     justify-content: center;
     align-content: center;
     gap: 25px;
-height: 300px;
+    height: 320px;
 
 }
 
@@ -332,22 +337,25 @@ height: 300px;
     margin-bottom: 16px;
 
 }
-hr{
+
+hr {
     margin: 40px 0px;
-    height:1px;
-    border-width:0;
-    color:rgba(128, 128, 128, 0.123);
-    background-color:rgba(128, 128, 128, 0.288);
+    height: 1px;
+    border-width: 0;
+    color: rgba(128, 128, 128, 0.123);
+    background-color: rgba(128, 128, 128, 0.288);
 }
-.news-letter-left form{
+
+.news-letter-left form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-  
+
 
 }
-.news-letter-left form input{
+
+.news-letter-left form input {
     margin: 5px 0px;
     padding: 15px;
     border: none;
@@ -355,10 +363,11 @@ hr{
     background: rgba(19, 19, 24, 0.05);
 
 }
-#sumbitd{
-background: #f68712;
-color: #FFF;
-font-size: medium;
+
+#sumbitd {
+    background: #f68712;
+    color: #FFF;
+    font-size: medium;
 
 }
 
@@ -367,13 +376,13 @@ font-size: medium;
     width: 65%;
     background-size: contain;
     background-repeat: no-repeat;
-
+    height: auto;
 
 }
 
 .news-letter-right img {
     width: 100%;
-    height: 370px;
+    height: 390px;
     margin-bottom: -160px;
 
 
@@ -397,48 +406,52 @@ font-size: medium;
 /* news letter seciton design ended */
 /* footer seciton design start */
 
-footer{
+footer {
     background-color: rgba(19, 19, 24, 0.05);
     margin-top: 150px;
     width: 100%;
 }
 
-.footer-wrapper{
+.footer-wrapper {
     padding-top: 80px;
     padding-bottom: 80px;
     width: 45%;
     text-align: center;
     margin: 0 auto;
 }
-.footer-description{
+
+.footer-description {
     color: #5A5A5D;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding-top: 15px;
-margin-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+    margin-bottom: 40px;
 
 }
-.footer-wrapper>ul{
+
+.footer-wrapper>ul {
     display: flex;
     list-style: none;
     justify-content: center;
 
 
 }
-.footer-wrapper>ul>li{
+
+.footer-wrapper>ul>li {
     margin-right: 15px;
     color: #f68712;
 
 }
-.footer-wrapper>ul>li>a{
-    color:black;
+
+.footer-wrapper>ul>li>a {
+    color: black;
 
 }
-.footer-wrapper>ul>li>a:hover{
+
+.footer-wrapper>ul>li>a:hover {
     color: #f68712;
 }
+
 /* footer seciton design ended */
-
-

@@ -3,6 +3,13 @@
 
 @media screen and (max-width: 992px) {
 
+    .menu-items{
+        display: none;
+    }
+    .humberg-icon{
+        display: flex;
+        width: 50px;
+    }
     .banner-section-wrapper {
         border-radius: 16px;
         background-size: cover;
@@ -10,8 +17,9 @@
 
     }
     .banner-title {
-        font-size: 22px;
+        font-size: 30px;
         font-weight: 800;
+        margin-top: 20px;
 
     }
 
@@ -22,6 +30,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
+
     }
 
     .search-form {
@@ -133,9 +142,7 @@
 
 
 }
-.menu-items{
-    display: none;
-}
+
 
 footer{
 
@@ -146,6 +153,10 @@ footer{
     padding-top: 80px 20px;
     width: 100%;
 
+}
+
+.footer-wrapper>img{
+    width: 250px;
 }
 
 } 
