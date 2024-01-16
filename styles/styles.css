@@ -11,7 +11,8 @@
 .menu-section,
 .hero-section,
 .popular-tour-section,
-.why-choose-us-section,.pricing-section {
+.why-choose-us-section,
+.pricing-section {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -19,7 +20,8 @@
 .menu-container,
 .banner-section-container,
 .popular-tour-section-container,
-.why-choose-us-section-container,.pricing-section-containe {
+.why-choose-us-section-container,
+.pricing-section-containe {
     width: auto;
     padding: 10px;
 }
@@ -167,7 +169,7 @@ li {
     margin-bottom: 50px;
 }
 
-.why-us-text h2{
+.why-us-text h2 {
     color: #131318;
     font-family: Mulish;
     font-size: 2.8em;
@@ -175,9 +177,10 @@ li {
     margin-bottom: 25px;
 
 }
+
 .why-us-text p {
     color: rgba(19, 19, 24, 0.70);
-    line-height: 26px; 
+    line-height: 26px;
 }
 
 .why-us-points {
@@ -230,11 +233,61 @@ li {
 
 
 /* why choose us section end  here*/
+/* Pricing Section start here*/
 
 
+.princing-box {
+    display: flex;
+    justify-content: end;
+    border-radius: 16px;
+    background-image: url('../Images/Group\ 39.png');
+    background-size: cover;
+    height: 500px;
+}
+.middle-row{
+    background-image: url('../Images/Group\ 40.png');
+    margin: 20px 0px;
 
-.pricing-box1>ul>li{
-list-style: none;
-display: inline-flex;
+}
 
+.pricing-box1 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 50%;
+    margin: 55px 40px;
+    padding: 35px 50px 35px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pricing-box1 h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 26px;
+    margin-bottom: 15px;
+
+}
+
+.pricing-box1 h4 {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #FF5400;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.pricing-box1>ul>li {
+    list-style: none;
+    display: inline-flex;
+    margin-right: 15px;
 }
