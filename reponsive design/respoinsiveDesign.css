@@ -104,5 +104,32 @@
     height: 250px;
     border-radius: 16px;
 }
+/* news letter seciton design started */
+.news-letter-section-wrapper {
+    flex-direction: column;
+    height: max-content;
+    padding: 20px;
 
 }
+.news-letter-left {
+    width: auto;
+    padding: 3%;
+    height: 100%;
+}
+.news-letter-right{width: auto;}
+
+.offer {
+    display: inline-block;
+    margin-left:28%;
+    padding: 25px 20px;
+    transform: rotate(-19.628deg);
+    color: #FFF;
+
+
+}
+.menu-items{
+    display: none;
+}
+
+}
+
