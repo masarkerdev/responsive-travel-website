@@ -30,8 +30,9 @@
 
 .primary-button {
     border-radius: 8px;
-    background: #FF5400;
+    background: #f68712;
     padding: 14px 35px;
+    font-size: medium;
     color: #FFF;
     border: 0px;
 }
@@ -128,7 +129,7 @@
 }
 
 .tour-section-left-side h2 {
-    color: #131318;
+    color: #2C3892;
     font-size: 2.5em;
     font-weight: 800;
 }
@@ -172,7 +173,7 @@ li {
 }
 
 .why-us-text h2 {
-    color: #131318;
+    color: #2C3892;
     font-family: Mulish;
     font-size: 2.8em;
     font-weight: 800;
@@ -318,7 +319,7 @@ height: 300px;
 .news-letter-left {
     width: 35%;
     padding: 3%;
-    border: 1px solid #FF5400;
+    border: 1px solid #f68712;
     border-radius: 16px;
     height: 100%;
 }
@@ -350,7 +351,7 @@ hr{
 
 }
 #sumbitd{
-background: #FF5400;
+background: #f68712;
 color: #FFF;
 font-size: medium;
 
@@ -379,7 +380,7 @@ font-size: medium;
     margin-left: 58%;
     padding: 25px 50px;
     border-radius: 16px;
-    background: #FF5400;
+    background: #f68712;
     transform: rotate(-19.628deg);
     text-align: center;
     border-radius: 16px;
