@@ -49,13 +49,9 @@
     align-items: center;
 
 }
-
 .menu-items>ul>li {
     display: inline-flex;
-
-
 }
-
 .menu-items>ul>li a {
     text-decoration: none;
     margin-right: 12px;
@@ -77,7 +73,6 @@
     flex-direction: column;
     text-align: center;
 }
-
 .banner-title {
     color: #FFF;
     font-family: Mulish;
@@ -86,7 +81,6 @@
     font-weight: 800;
 
 }
-
 .banner-description {
     color: #FFF;
     text-align: center;
@@ -98,26 +92,32 @@
     line-height: 26px;
     margin-top: 24px;
 }
-
 .search-form {
     padding: 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     margin-top: 48px;
 }
-
 .search-form>form {
     display: flex;
     gap: 15px;
 
 }
-
-.textinput,
-#textinput {
+.textinput, #textinput {
     padding: 16px 60px 16px 16px;
     border-radius: 8px;
+    border: none;
+    font-size: 1em;
 }
 
+#textinput{
+    background-color: #f68712;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 30px 16px 16px;
+  
+}
 
 /* Menu Section Style end Here */
 
