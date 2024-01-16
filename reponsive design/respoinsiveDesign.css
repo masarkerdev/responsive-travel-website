@@ -53,6 +53,9 @@
         padding: 15px;
 
     }
+
+
+
 /* why choose use section start here */
 .why-choose-us-section-wrapper {
 
@@ -106,11 +109,14 @@
 }
 /* news letter seciton design started */
 .news-letter-section-wrapper {
-    flex-direction: column;
-    height: max-content;
-    padding: 20px;
 
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    width: auto;
 }
+
+
 .news-letter-left {
     width: auto;
     padding: 3%;
@@ -131,5 +137,16 @@
     display: none;
 }
 
+footer{
+
+    margin-top: 100px;
+
 }
+.footer-wrapper{
+    padding-top: 80px 20px;
+    width: 100%;
+
+}
+
+} 
 
